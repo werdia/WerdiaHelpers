@@ -1,0 +1,10 @@
+@{
+    Severity=@('Error','Warning')
+    ExcludeRules=@('PSUseApprovedVerbs',
+        'PSUseSingularNouns',
+        'PSAvoidUsingInvokeExpression',
+        'PSAvoidUsingPositionalParameters',
+        'PSAvoidUsingWMICmdlet',
+        'PSAvoidUsingWriteHost',
+        'PSReviewUnusedParameter')
+}
